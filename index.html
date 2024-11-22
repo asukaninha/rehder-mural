@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Entrar</h1>
+        <br>
+        <input type="text" placeholder="Email" id="email" class="input1">
+        <br><br><br>
+        <input type="password" placeholder="Senha" id="senha" class="input1">
+        <br><br><br>
+        <input type="submit" placeholder="Entrar" id="entar" class="botao">
+        <br><br><br>
+        <a href="">Clique aqui caso não tenha registro</a>
+    </div>
+</body>
+<style>
+    body{
+        background-image: url(fundo5.jpg);
+        background-color: #c0c0c0;
+    }
+    h1{
+        color: #1e1a3d;
+        text-align: center;
+    }
+    .box{
+        position: absolute;
+        transform: translate(800px, 200px);
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 20px 20px 10px gray;
+    }
+    .input1{
+        padding: 8px;
+        border-radius: 50px;
+        outline: none;
+        position: absolute;
+        transform: translate(20px, 0px);
+        border-color: gray;
+    }
+    .botao{
+        padding: 10px;
+        border-radius: 15px;
+        outline: none;
+        position: absolute;
+        transform: translate(85px, 0px);
+        border: none;
+        background-color: #1e1a3d;
+        color: white;
+        cursor: pointer;
+    }
+    .botao:hover{
+        background-color: #acacf5;
+    }
+    a{
+        color: #1e1a3d;
+    }
+    a:hover{
+        color: #acacf5;
+    }
+</style>
+</html>
